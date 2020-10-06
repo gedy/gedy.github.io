@@ -1,0 +1,26 @@
+{
+    "name": "gedy.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+        "glob": "^7.1.6",
+        "markdown-it": "^11.0.1",
+        "mkdirp": "^1.0.4",
+        "rimraf": "^3.0.2"
+    },
+    "scripts": {
+        "build": "node ./script/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gedy/gedy.github.io.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gedy/gedy.github.io/issues"
+    },
+    "homepage": "https://github.com/gedy/gedy.github.io#readme"
+}
