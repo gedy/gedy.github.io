@@ -5,7 +5,7 @@ const rimraf = require('rimraf');
 const mkdirp = require('mkdirp');
 
 const srcFolder = path.join(__dirname, '../src')
-const distFolder = path.join(__dirname, '../dist')
+const distFolder = path.join(__dirname, '../pages')
 
 rimraf(distFolder, () => {
     mkdirp.sync(distFolder)
