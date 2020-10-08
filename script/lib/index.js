@@ -147,7 +147,7 @@ const getSideBar = (files = [], curItem = '', mdConfigMap = {}) => {
             }
 
             liResult.push('<li ' + className + '>');
-            liResult.push('<a href=' + url + ' class="category-list-title">' + (mdConfig.title || basename) + '</a>');
+            liResult.push('<a href=' + url + ' class="category-list-title" title="' + (mdConfig.title || basename) + '">' + (mdConfig.title || basename) + '</a>');
 
             if (mdConfig.list && mdConfig.list.length > 0) {
                 liResult.push('<ul class="category-list-anchor">');
